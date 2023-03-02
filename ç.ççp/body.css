@@ -1,0 +1,20 @@
+body{
+    background-color: lightseagreen;
+    font-family: monospace;
+}
+
+
+#form-filme{
+    max-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+#list-filome{
+    list-style: none;
+}
+
+#list-filme li{
+    font-size: 1.3rem;
+}
