@@ -32,7 +32,7 @@ def obter_tarefa(tarefa_id: int, response: Response):
 
 #postar nova tarefa
 @app.post('/tarefas', status_code=status.HTTP_201_CREATED)
-def novo_filme(tarefa: Tarefa):
+def nova_tarefa(tarefa: Tarefa):
     tarefa.id = len(tarefas) + 1
     tarefas.append(tarefa)
 
