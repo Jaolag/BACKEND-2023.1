@@ -9,7 +9,7 @@ class Tarefa(BaseModel):
     responsavel : str | None
     nivel : int
     prioridade : int
-    situacao : str | None
+    situacao : str 
 
 tarefas:list[Tarefa]=[]
 
