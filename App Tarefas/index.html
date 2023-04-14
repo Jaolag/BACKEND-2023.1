@@ -18,14 +18,32 @@
       <input class="inputs" type="text" name="descricao" id="descricao" placeholder="Descriçao">
       <input class="inputs" type="text" name="responsavel" id="responsavel" placeholder="Nome do Responsavel">
 
-      <!--Seleçao de Nivel-->
-      <input type="number" id="nivel" class="inputs" name="nivel" placeholder="Nivel">
+      <select class="inputs" id="nivel" name="nivel">
+        <option value="">Nivel</option>
+        <option value="1">1</option>
+        <option value="3">3</option>
+        <option value="5">5</option>
+        <option value="8">8</option>
+      </select>
 
-      <!--Seleçao de prioridade-->
-      <input type="number" id="prioridade" class="inputs" name="prioridade" placeholder="Prioridade">
 
-      <!--Seleçao de situacao-->
-      <input type="text" id="situacao" class="inputs" name="situacao" placeholder="Situação">
+      <select class="inputs" id="prioridade" name="prioridade">
+        <option value="">Prioridade</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+
+      <!-- Filtro por Situação -->
+      <select class="inputs" id="situacao" name="situacao">
+        <option value="">Situação</option>
+        <option value="Nova">Nova</option>
+        <option value="Em Andamento">Em andamento</option>
+        <option value="Pendente">Pendente</option>
+        <option value="Resolvida">Resolvida</option>
+        <option value="Cancelada">Cancelada</option>
+      </select>
+  
 
       <input id="btn-cancelar" class="buttons" type="reset" value="Cancelar">
       <input id="btn-confirmar" class="buttons" type="submit" value="Registrar">
